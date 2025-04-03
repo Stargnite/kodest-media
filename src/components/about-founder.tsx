@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { ArrowRight} from "lucide-react"
-// import Image from "next/image"
-// import founderImg from "@/assets/founderImg.jpeg"
+import Image from "next/image"
+import founderImg from "@/assets/founderImg.jpeg"
 
 const AboutFounder = () => {
 	return (
@@ -9,7 +9,7 @@ const AboutFounder = () => {
 		<div className="container mx-auto px-4">
 			<div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
 				<div className="relative aspect-square w-full max-w-md mx-auto md:max-w-none overflow-hidden order-2 md:order-1">
-					{/* <Image src={founderImg} alt="CEO Portrait" fill className="object-cover" /> */}
+					<Image src={founderImg} alt="CEO Portrait" fill className="object-cover" />
 					<div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
 				</div>
 				<div className="space-y-6 order-1 md:order-2">
